@@ -1,11 +1,12 @@
 <h4>โปรแกรมหาค่า BMI หรือค่าดัชนีมวลกาย</h4>
 <form action="<?=$_SERVER['PHP_SELF'];?>" method="POST">
-    กรุณากรอกน้ำหนัก (กิโลกรัม)<br/>
+    กรุณากรอกน้ำหนักของคุณ (กิโลกรัม)<br/>
     <input type="number" name="weight"><br/>
-    กรุณากรอกความสูง (เซนติเมตร)<br/>
+    กรุณากรอกความสูงของคุณ (เซนติเมตร)<br/>
     <input type="number" name="height"><br/>
     <input type="submit" value="หาค่า BMI"><br/>   
 </form>
+
 
 
 <?php
