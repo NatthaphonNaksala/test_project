@@ -7,6 +7,8 @@
     <input type="submit" value="หาค่า BMI"><br/>   
 </form>
 
+<h1>Hello</h1>
+
 
 
 <?php
